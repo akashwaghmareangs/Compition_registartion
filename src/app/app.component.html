@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-custom px-4">
+  <a class="navbar-brand text-white fw-bold" href="#">
+    <i class="fas fa-rocket"></i> TechNova
+  </a>
+  <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Competitions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Past Winners</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+    </ul>
+   <div class="d-flex">
+  <a routerLink="/login" class="btn btn-login me-2">
+    <i class="fas fa-sign-in-alt"></i> Login
+  </a>
+  <a routerLink="/register" class="btn btn-register">
+    <i class="fas fa-user-plus"></i> Register
+  </a>
+</div>
+  </div>
+</nav>
+<router-outlet></router-outlet>

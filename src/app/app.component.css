@@ -1,0 +1,26 @@
+ .navbar-custom {
+      background: linear-gradient(to right, #1976d2, #7b1fa2);
+    }
+
+    .navbar-brand i {
+      margin-right: 5px;
+    }
+
+    .btn-login {
+      color: white;
+      border: 1px solid white;
+      margin-right: 10px;
+    }
+
+    .btn-register {
+      background-color: white;
+      color: black;
+    }
+
+    .navbar-nav .nav-link {
+      color: white !important;
+    }
+
+    .navbar-nav .nav-link:hover {
+      text-decoration: underline;
+    }
